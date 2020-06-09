@@ -22,5 +22,15 @@ class Game
 	def tie?
 		return true
 	end
+
+	def winner
+		if @board = 'x_wins_board'
+			return :x
+		elsif @board = "o_wins_board"
+			return :o
+		else
+			return nil
+		end
+	end
 	
 end
