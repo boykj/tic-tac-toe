@@ -17,7 +17,10 @@ class Game
 		else 
 			return false
 		end
-		
+	end
+
+	def tie?
+		return true
 	end
 	
 end
