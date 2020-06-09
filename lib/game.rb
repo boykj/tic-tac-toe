@@ -12,7 +12,12 @@ class Game
 	end
 
 	def over?
-		return false
+		if @board.full?
+			return true
+		else 
+			return false
+		end
+		
 	end
 	
 end
